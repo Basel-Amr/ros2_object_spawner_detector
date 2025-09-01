@@ -122,15 +122,3 @@ ros2 run ros2_eval_task model_spawner_node
 *  Add bounding boxes around detected models in images.
 *  Run YOLO/OpenCV to classify the spawned object.
 *  Implement automatic dataset generation from captured frames.
-
----
-# Diagrames
-
-🔹 1) System Architecture Diagram
-```mermaid
-flowchart TD
-    A[Model Spawner Node] -->|Spawn/Delete Service| B[Gazebo Simulator]
-    B -->|Camera Image| C[Model Spawner Node]
-    C -->|Save Frames| D[Disk Storage (Assets/Images)]
-    A -->|Markers| E[Rviz2 Visualization]
-```
