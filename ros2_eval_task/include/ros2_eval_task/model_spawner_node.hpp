@@ -59,10 +59,10 @@ private:
     int image_id_;
 
     std::string save_dir_;             // model-specific session folder
-    std::string base_save_dir_;        // ✅ Added: base directory for saving
+    std::string base_save_dir_;        // base directory for saving
     std::string session_dir_created_;  // timestamp for session folder
 
     bool warned_get_entity_state_;     // warn only once if get_entity_state unavailable
 
-    std::map<std::string, cv::Mat> templates_;  // ✅ Added: stores loaded reference templates
+    std::map<std::string, cv::Mat> templates_;  // stores loaded reference templates
 };
