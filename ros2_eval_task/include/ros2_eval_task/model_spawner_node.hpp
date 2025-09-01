@@ -41,7 +41,7 @@ private:
     void prepare_model_session_dir(const std::string &model_name);
     void publish_marker(const std::string &model_name, const geometry_msgs::msg::Pose &pose);
 
-    void load_reference_templates();  // ✅ Added: loads all reference templates
+    void load_reference_templates();  // loads all reference templates
 
     double rand_double(double min, double max);
     int rand_int(int min, int max);
