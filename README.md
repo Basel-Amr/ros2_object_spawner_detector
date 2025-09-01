@@ -115,7 +115,7 @@ ros2 run ros2_eval_task model_spawner_node
 ```bash
 [INFO] [..] [model_spawner_node]: Spawning model: lipo_battery at (0.18, -0.09, 1.10)
 [INFO] [..] [model_spawner_node]: Published marker for model: lipo_battery
-✅ Image saved: /home/dev/ros2_ws/images/image_3_1726409312398471.png
+✅ Image saved: /home/baselamr/ros2_ws/src/ros2_eval_task/captured_images/image_3_1726409312398471.png
 ```
 ---
 # 🔮 Future Work
