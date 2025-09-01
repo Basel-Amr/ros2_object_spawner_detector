@@ -19,7 +19,7 @@ This task demonstrates ROS 2 node development, Gazebo service interaction, RViz 
     *  Portable environment with ROS 2 Humble + Gazebo Classic preinstalled.
 ---
 # 🎥 Demo
-[![Demo Video]](Assets\demo_video.webm)
+[![Demo Video]](Assets/demo_video.webm)
 ---
 
 # 🖥️ Dependencies (Native)
