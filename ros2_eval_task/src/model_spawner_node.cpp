@@ -151,8 +151,8 @@ void ModelSpawnerNode::image_callback(const sensor_msgs::msg::Image::SharedPtr m
         double second_best_score = -1.0;
         cv::Rect best_bbox;
 
-        const double global_threshold = 0.60; // require at least this score
-        const double margin_threshold = 0.08; // best must exceed second best by margin
+        const double global_threshold = 0.60; 
+        const double margin_threshold = 0.08; 
 
         for (const auto &entry : templates_) {
             const std::string &model_name = entry.first;
